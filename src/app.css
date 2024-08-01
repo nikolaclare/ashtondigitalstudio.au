@@ -1,0 +1,21 @@
+:root {
+  --primary-color-light-purple: #DBD8E3;
+  --secondary-color-dark-purple: #5C5470;
+  --accent-color-green: #A4B69C;
+  --accent-color-yellow: #EFF7D3;
+  --primary-font: 'Playfair';
+  --secondary-font: 'Montserrat';
+}
+
+body {
+  font-family: var(--secondary-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--primary-font);
+}
+
+.logo {
+  border-radius: 50%;
+  height: 50px;
+}
